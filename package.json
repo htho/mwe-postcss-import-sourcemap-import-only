@@ -1,0 +1,25 @@
+{
+  "name": "mwe-postcss-import-sourcemap-import-only",
+  "version": "1.0.0",
+  "description": "Minimally working example for postcss-import where a file that only includes import lines is not represented in the sourcemap.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postcss-nok": "call ./node_modules/.bin/postcss ./src/style-withoutcomment.css --verbose --output ./dist/style.css",
+    "postcss-ok": "call ./node_modules/.bin/postcss ./src/style-withcomment.css --verbose --output ./dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htho/mwe-postcss-import-sourcemap-import-only.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/htho/mwe-postcss-import-sourcemap-import-only/issues"
+  },
+  "homepage": "https://github.com/htho/mwe-postcss-import-sourcemap-import-only#readme",
+  "devDependencies": {
+    "postcss-cli": "^6.1.2",
+    "postcss-import": "^12.0.1"
+  }
+}
