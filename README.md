@@ -6,7 +6,6 @@ Minimally working example for postcss-import where a file that only includes imp
 
 ```sh
 npm i
-npm run postcss
 ```
 
 ## Working Test (with dummy comment)
@@ -28,4 +27,4 @@ npm run postcss-nok
 
 Open [test.html](test.html) in your browser.
 
-The dev-tools will not a file named style-withoutcomment.css
+The dev-tools will not show a file named style-withoutcomment.css
